@@ -1,0 +1,32 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:max-content;
+}
+
+.utility{
+  grid-column: 2/ span 3 ;
+  
+}
+
+.allqts{
+  grid-column: 2 / span 3;
+}
+
+.left{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row: 2/span 1;
+  height: 400px;
+}
+
+.right{
+  grid-column-start: 5;
+  grid-row-start: 2;
+  grid-row: 2/span 1;
+  height: 400px;
+}
